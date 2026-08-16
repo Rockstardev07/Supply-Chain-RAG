@@ -1,0 +1,52 @@
+FASTAPI
+
+STATS:
+RESPONSE:
+{
+  "collection_name": "supplychain_docs",
+  "total_chunks": 24,
+  "embedding_model": "gemini-embedding-001",
+  "llm_model": "gemini-3.6-flash",
+  "answering_provider_order": [
+    "gemini"
+  ]
+}
+
+ASK:
+GIVEN:
+{
+  "question": "What is the approval authority for a purchase order worth ₹1.4 crore?",
+  "top_k": 8
+}
+
+
+RESPONSE:
+{
+  "answer": "According to Section 3 of `Meridian_Procurement_Policy_Handbook_v4.2.pdf, page 1`, the approval authority thresholds for purchase order values are:\n* **Above ₹25 lakh and up to ₹1 crore:** Head of Procurement\n* **Above ₹1 crore and up to ₹5 crore:** Chief Operating Officer\n\nSince a purchase order worth ₹1.4 crore falls within the **Above ₹1 crore and up to ₹5 crore** threshold, the required approval authority is the **Chief Operating Officer**.",
+  "sources": [
+    {
+      "file": "Meridian_Procurement_Policy_Handbook_v4.2.pdf",
+      "page": 1
+    },
+    {
+      "file": "Meridian_Procurement_Policy_Handbook_v4.2.pdf",
+      "page": 2
+    },
+    {
+      "file": "Meridian_Procurement_Policy_Handbook_v4.2.pdf",
+      "page": 3
+    }
+  ]
+}
+
+
+INGEST:
+(.venv) PS D:\tmp\supplychain-rag> curl.exe -X POST "http://127.0.0.1:8000/ingest" `
+>>   -F "files=@D:\tmp\supplychain-rag\data\Meridian_Procurement_Policy_Handbook_v4.2.pdf" `
+>>   -F "files=@D:\tmp\supplychain-rag\data\Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf"
+{"files":2,"chunks":24}
+(.venv) PS D:\tmp\supplychain-rag> 
+
+
+
+

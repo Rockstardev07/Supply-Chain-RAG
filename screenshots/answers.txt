@@ -1,0 +1,223 @@
+answers:
+
+
+1. Which supplier had the highest spend in Q1, and what was its on-time delivery percentage?
+
+Answer
+Based on Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf, page 1 (Section 2, Supplier performance scorecard and Notes on the scorecard):
+
+Supplier with the highest spend: Shenzhen Rui Electronics (with a Q1 spend of ₹21.9 crore)
+On-time delivery percentage: 79.5%
+Sources
+Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf, page 1
+Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf, page 2
+Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf, page 3
+Meridian_Procurement_Policy_Handbook_v4.2.pdf, page 2
+
+
+2. How many line stoppages happened in Q1, what was the total downtime, and what caused them?
+
+Answer
+According to Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf (Page 1 and Page 2):
+
+Number of Line Stoppages: 7 line-stoppage events were recorded across the two plants (Page 1, Section 1 and Page 2, Section 5).
+Total Downtime: 41 hours (Page 1, Section 1 and Page 2, Section 5).
+Causes:
+Microcontroller Shortage from Shenzhen Rui Electronics (4 events, 22 hours total) (Page 1, Section 1 and Page 2, Section 5):
+22 Apr 2025 (Chakan, 4 hrs): Vessel roll-over at Shenzhen.
+09 May 2025 (Chakan, 11 hrs): 9-day customs hold at Nhava Sheva.
+27 May 2025 (Chakan, 6 hrs): Partial shipment received.
+25 Jun 2025 (Chakan, 4 hrs): Allocation shortfall from supplier.
+PCB Quality Issues from Trident Circuit Boards (2 events, 11 hours total) (Page 2, Section 5):
+14 May 2025 (Hosur, 3 hrs): PCB lot rejected at incoming inspection.
+17 Jun 2025 (Hosur, 8 hrs): PCB lot rejected at incoming inspection.
+External Transport Disruption (1 event, 5 hours total) (Page 2, Section 5):
+06 Jun 2025 (Chakan, 5 hrs): Transporter strike on the Coimbatore–Pune corridor.
+Sources
+Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf, page 2
+Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf, page 1
+Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf, page 3
+
+
+
+3. What is the approval authority for a purchase order worth ₹1.4 crore?
+
+Answer
+Based on Section 3 ("Approval authority for purchase orders") of Meridian_Procurement_Policy_Handbook_v4.2.pdf, page 1:
+
+For a purchase order value above ₹1 crore and up to ₹5 crore, the approving authority is the Chief Operating Officer.
+Since ₹1.4 crore falls within this bracket, the approval authority for a ₹1.4 crore purchase order is the Chief Operating Officer.
+
+Sources
+Meridian_Procurement_Policy_Handbook_v4.2.pdf, page 1
+Meridian_Procurement_Policy_Handbook_v4.2.pdf, page 2
+Meridian_Procurement_Policy_Handbook_v4.2.pdf, page 3
+
+
+
+4. What are the four supplier classification categories, and what qualifies a supplier as Critical?
+
+Answer
+According to Meridian_Procurement_Policy_Handbook_v4.2.pdf, page 1, Section 2 ("Supplier classification"):
+
+Four Supplier Classification Categories:
+Critical
+Strategic
+Standard
+Tail
+Qualifying Criteria for a "Critical" Supplier:
+Meeting any one of the following criteria qualifies a supplier as Critical:
+
+Single-source for any part
+Annual spend above ₹10 crore
+Supplies a safety-related component
+Sources
+Meridian_Procurement_Policy_Handbook_v4.2.pdf, page 1
+Meridian_Procurement_Policy_Handbook_v4.2.pdf, page 2
+Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf, page 1
+
+
+5. Kaveri Metals recorded 88.1% on-time delivery and 1,150 defects per million in Q1. Which policy clauses does this trigger, and what exactly must the buyer do?
+
+Answer
+Based on the provided documents, Kaveri Metals’ performance in Q1 (88.1% on-time delivery and 1,150 PPM defect rate) triggers Clause 6.1 and Clause 6.3 of the Meridian Procurement Policy Handbook v4.2.pdf (page 2):
+
+1. Triggered Clauses & Conditions:
+Clause 6.1 (On-time delivery below 90% in any quarter):
+Condition: Kaveri Metals’ on-time delivery of 88.1% is below the 90% threshold for Q1 [Source: Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf, page 1].
+Clause 6.3 (Defect rate above 500 parts per million in any quarter):
+Condition: Kaveri Metals’ defect rate of 1,150 PPM exceeds the 500 PPM threshold [Source: Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf, page 1].
+(Note: Clause 6.2 is not triggered as OTD is not below 85% for two consecutive quarters).
+
+2. Actions Required / Consequences:
+Under Clause 6.1 [Source: Meridian_Procurement_Policy_Handbook_v4.2.pdf, page 2]:
+
+Issue a written warning to Kaveri Metals within 10 working days of quarter close.
+Move Kaveri Metals to a weekly delivery review call until performance recovers above 90% for one full quarter.
+Under Clause 6.3 [Source: Meridian_Procurement_Policy_Handbook_v4.2.pdf, page 2]:
+
+Recover the cost of rework from Kaveri Metals at a standard recovery rate of ₹120 per affected unit.
+Impose 100% incoming inspection at Kaveri Metals' cost until three consecutive lots are accepted without defect.
+Sources
+Meridian_Procurement_Policy_Handbook_v4.2.pdf, page 2
+Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf, page 2
+Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf, page 1
+Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf, page 3
+
+
+
+6. The microcontroller supplier is single-source. What does the sourcing policy require in this situation, and what is the company already doing about it?
+
+Answer
+Based on the provided documents, here are the classification requirements, sourcing policy rules, and the actions currently being taken:
+
+1. Classification and Sourcing Policy Requirements
+Classification: Under Section 2 of the Meridian Procurement Policy Handbook v4.2.pdf (page 1), a supplier meeting any criteria such as being a single-source for any part, having annual spend above ₹10 crore, or supplying safety-related components is classified as Critical (otherwise, suppliers are classified as Strategic, Standard, or Tail depending on spend). Because Shenzhen Rui Electronics is the single source for microcontrollers (Meridian Supply Chain Review Q1 FY2025-26.pdf, page 1), it falls under the Critical supplier classification.
+Dual Sourcing Requirement: Section 7.1 of the Meridian Procurement Policy Handbook v4.2.pdf (page 2) requires that every part supplied by a Critical supplier must have a qualified second source in place within 12 months of that classification being assigned, with monthly progress reported to the Management Committee.
+Volume Share Limit: Section 7.2 of the Meridian Procurement Policy Handbook v4.2.pdf (page 2) mandates that once dual sourcing is established, no single supplier may hold more than 60% of the volume of any one part without written COO approval.
+2. What the Company is Doing
+Qualification of Alternate Supplier: Qualification of an alternate supplier is already under way (Meridian Supply Chain Review Q1 FY2025-26.pdf, page 1).
+Sources
+Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf, page 1
+Meridian_Procurement_Policy_Handbook_v4.2.pdf, page 2
+Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf, page 3
+Meridian_Procurement_Policy_Handbook_v4.2.pdf, page 1
+Meridian_Procurement_Policy_Handbook_v4.2.pdf, page 3
+
+
+
+7. Microcontrollers are imported with a 46-day lead time. Using the safety-stock policy, how many days of stock should be held for this part?
+
+Answer
+Based on the Meridian Procurement Policy Handbook v4.2 (page 3), safety stock is calculated as: 
+
+Safety stock (days)=Lead time in days×0.25=46×0.25=11.5 days
+
+The policy requires comparing the calculated value to the minimum floor and applying the higher value:
+
+If classified as Imported, non-critical supplier: The minimum floor is 10 days [Meridian_Procurement_Policy_Handbook_v4.2.pdf, page 3]. The higher value is 11.5 days.
+If classified as Imported, Critical supplier: The minimum floor is 30 days [Meridian_Procurement_Policy_Handbook_v4.2.pdf, page 3]. The higher value is 30 days.
+Evidence & Conclusion: Microcontrollers are imported from Shenzhen Rui Electronics, which is currently a single source undergoing dual-sourcing qualification under Section 7.1 rules for Critical suppliers [Meridian_Procurement_Policy_Handbook_v4.2.pdf, page 2] and is identified as the highest-rated supply risk [Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf, page 1, 3]. Because it is supplied by a Critical supplier, the 30-day minimum floor applies as it is higher than the calculated 11.5 days.
+
+Final Answer: 30 days of stock should be held [Meridian_Procurement_Policy_Handbook_v4.2.pdf, page 3].
+
+Sources
+Meridian_Procurement_Policy_Handbook_v4.2.pdf, page 3
+Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf, page 2
+Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf, page 1
+Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf, page 3
+Meridian_Procurement_Policy_Handbook_v4.2.pdf, page 2
+
+
+
+8. Trident Circuit Boards had a defect rate of 640 parts per million. What is the cost consequence under the policy?
+
+Answer
+Based on the provided documents, the policy consequences depend on whether a supplier's defect rate is above or below 500 parts per million (PPM) in any quarter:
+
+If the defect rate is 500 PPM or below: Clause 6.3 does not trigger.
+If the defect rate is above 500 PPM: Clause 6.3 of Meridian_Procurement_Policy_Handbook_v4.2.pdf (page 2) applies.
+Evidence & Conclusion: According to Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf (page 1 and page 2), Trident Circuit Boards had a defect rate of 640 PPM, which satisfies the condition of being above 500 PPM.
+
+Therefore, under Clause 6.3 (Meridian_Procurement_Policy_Handbook_v4.2.pdf, page 2), the cost consequences are:
+
+The supplier bears the cost of rework at a standard recovery rate of ₹120 per affected unit.
+100% incoming inspection is imposed at the supplier's cost until three consecutive lots are accepted without defect.
+Sources
+Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf, page 2
+Meridian_Procurement_Policy_Handbook_v4.2.pdf, page 2
+Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf, page 1
+Meridian_Procurement_Policy_Handbook_v4.2.pdf, page 3
+
+
+
+
+9. Which suppliers would fall below the B rating band on on-time delivery alone, and what is the escalation path for them?
+
+Answer
+Based on the provided documents, here is the breakdown regarding rating bands on on-time delivery and their consequences/escalation paths:
+
+1. Classification & Supplier Identification
+According to Meridian_Procurement_Policy_Handbook_v4.2.pdf (page 2):
+
+A supplier delivering below 90% cannot score in Band A.
+A supplier delivering below 75% cannot score in Band B (meaning they fall below Band B into Band C or D).
+Looking at the Q1 FY 2025-26 delivery performance from Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf (page 1):
+
+Suppliers below 75% (falling strictly below Band B): None. The lowest delivery performance was Shenzhen Rui Electronics at 79.5%.
+Suppliers below 90% (falling below Band A into Band B or lower):
+Shenzhen Rui Electronics: 79.5%
+Trident Circuit Boards: 84.6%
+Kaveri Metals Pvt Ltd: 88.1%
+2. Consequences and Escalation Path
+A. Policy Consequences for On-Time Delivery Failures (Meridian_Procurement_Policy_Handbook_v4.2.pdf, page 2)
+Delivery below 90% in any quarter (Clause 6.1): Applies to Kaveri Metals, Trident Circuit Boards, and Shenzhen Rui Electronics.
+A written warning is issued within 10 working days of quarter close.
+The supplier moves to a weekly delivery review call until performance recovers above 90% for one full quarter.
+Delivery below 85% for two consecutive quarters (Clause 6.2): Applies specifically to Shenzhen Rui Electronics (Q4 FY 2024-25 at 83.2% and Q1 FY 2025-26 at 79.5%; Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf, page 1).
+In addition to Clause 6.1, a debit note equal to 2% of the quarterly invoice value is raised.
+The supplier must submit a formal improvement plan within 15 working days. Failure to submit escalates to Clause 6.4 (business hold).
+B. Escalation Matrix (Meridian_Procurement_Policy_Handbook_v4.2.pdf, page 3, Section 10)
+If delivery slippages trigger formal escalations:
+
+Level 1 (Buyer, 24-hour response time): Triggered by delivery slippage of up to 3 days.
+Level 2 (Category Manager, 48-hour response time): Triggered by delivery slippage beyond 3 days, or a rejected lot.
+Level 3 (Head of Procurement, 72-hour response time): Triggered by risk of line stoppage within 7 days.
+Level 4 (Chief Operating Officer, 5 working days response time): Triggered by actual line stoppage or supplier insolvency signal.
+Sources
+Meridian_Procurement_Policy_Handbook_v4.2.pdf, page 2
+Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf, page 1
+Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf, page 3
+Meridian_Procurement_Policy_Handbook_v4.2.pdf, page 3
+
+
+
+10. What is the annual salary of the Head of Procurement?
+
+Answer
+Based on the provided documents, the information regarding the annual salary of the Head of Procurement is not available.
+
+Sources
+Meridian_Procurement_Policy_Handbook_v4.2.pdf, page 1
+Meridian_Procurement_Policy_Handbook_v4.2.pdf, page 3
+Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf, page 1
