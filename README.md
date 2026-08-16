@@ -14,6 +14,9 @@ question being refused.
 - [▶️ Watch on Google Drive](https://drive.google.com/file/d/16K5anvV7dcx4LWW7-4eFKQKJ6AOpqcgo/view?usp=sharing)
 - [📁 Watch in the repo](video/demo.webm)
 
+## FastAPI done
+See the outputs here: [click me](screenshots/fastapi/)
+
 ## Architecture
 
 ```
