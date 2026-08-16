@@ -17,6 +17,35 @@ question being refused.
 ## FastAPI done
 See the outputs here: [click me](screenshots/fastapi/)
 
+**Live run from this project:**
+
+| Endpoint  | Request                                                                                      | Response (summary)                                                                                                                                                 |
+|-----------|-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `/ingest` | 2 PDFs uploaded: `Meridian_Procurement_Policy_Handbook_v4.2.pdf`, `Meridian_Supply_Chain_Review_Q1_FY2025-26.pdf` | `{"files": 2, "chunks": 24}`                                                                                                                                        |
+| `/ask`    | `{"question": "What is the approval authority for a purchase order worth ₹1.4 crore?", "top_k": 8}` | Answer: **Chief Operating Officer** (order falls in the "Above ₹1 crore and up to ₹5 crore" band per Section 3). Sources: `Meridian_Procurement_Policy_Handbook_v4.2.pdf`, pages 1–3 |
+| `/stats`  | —                                                                                              | `collection_name`: `supplychain_docs` · `total_chunks`: `24` · `embedding_model`: `gemini-embedding-001` · `llm_model`: `gemini-3.6-flash` · `answering_provider_order`: `["gemini"]` |
+
+## Repository structure
+
+```
+supplychain-rag/
+├── app.py                  # Streamlit interface
+├── ingest.py               # load, chunk, embed, store in Chroma
+├── rag.py                  # retrieve + prompt + call the answering model
+├── llm_providers.py        # embedding/answering provider abstraction (Gemini + OpenAI)
+├── api/main.py             # optional FastAPI backend
+├── data/                   # the two provided PDFs
+├── screenshots/            # app + FastAPI screenshots, recorded answers
+├── chroma_db/              # persisted vector store (gitignored)
+├── video/
+│   └── demo.webm           # 3-minute demo video
+├── requirements.txt
+├── .env.example
+├── .gitignore
+└── README.md
+```
+
+
 ## Architecture
 
 ```
@@ -220,22 +249,3 @@ screenshot from the actual run for each one.
   but a table-aware parser would be a more robust fix for larger or messier
   source documents.
 
-## Repository structure
-
-```
-supplychain-rag/
-├── app.py                  # Streamlit interface
-├── ingest.py               # load, chunk, embed, store in Chroma
-├── rag.py                  # retrieve + prompt + call the answering model
-├── llm_providers.py        # embedding/answering provider abstraction (Gemini + OpenAI)
-├── api/main.py             # optional FastAPI backend
-├── data/                   # the two provided PDFs
-├── screenshots/            # app + FastAPI screenshots, recorded answers
-├── chroma_db/              # persisted vector store (gitignored)
-├── video/
-│   └── demo.webm           # 3-minute demo video
-├── requirements.txt
-├── .env.example
-├── .gitignore
-└── README.md
-```
