@@ -9,8 +9,10 @@ Uses the **Gemini API** for both embeddings and answering, with OpenAI
 available as an optional fallback if a key is configured.
 
 ## Demo Video
-[▶️ Watch demo.webm](video/demo.webm) — recorded in the repo (upload, indexing,
-cross-document questions, and the trap question being refused).
+~3 minutes — upload, indexing, cross-document questions, and the trap
+question being refused.
+- [▶️ Watch on Google Drive](https://drive.google.com/file/d/16K5anvV7dcx4LWW7-4eFKQKJ6AOpqcgo/view?usp=sharing)
+- [📁 Watch in the repo](video/demo.webm)
 
 ## Architecture
 
